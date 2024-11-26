@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border-bottom: 1px solid #999999;
+}
+.bg-color{
+    color: white;
+    background: #131314;
+}
+nav ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+    padding: 30px 20px;
+    
+}
+.post li{
+    list-style: none;
+    padding:0px;
+    
+}
+.padding-less-li ul li {
+    list-style: none;
+    padding: 30px 10px;
+}
+/* ul i {
+    padding: 30px;  
+} */
+
+ul li:hover, ul i:hover{
+    cursor: pointer;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+.navi:hover{
+    cursor: pointer;
+}
+.pt{
+padding: 10vh 0px;
+}
+.pt .sec{
+    width: 50%;
+    margin: auto;
+}
+.pt div ul li{
+    padding: 0px;
+}
+.dp{
+    border-radius: 50%;
+    width: 25px;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.mt-5{
+    margin-top: 1rem;
+}
+.b{
+    border: 2px solid red;
+}
+.text-center{
+  text-align: center; 
+}
+div ul li {
+    list-style: none;
+}
+.mr-30{
+    margin: 0 30px 0 5px;
+}
+.fa{
+    color:#999999 
+}
+.content{
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+}
+.post{
+    padding-bottom: 20px;
+}
+
+li{
+    color:#999999 
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.color{
+    color: #999999;
+}
+.color-black{
+color: #131314;
+}
+.my-5{
+    margin: 10px 0;
+}
+.bold{
+    font-weight: bold;
+    width:90%;
+    margin: auto;
+    border-left: 1px solid black;
+    padding:5px 10px;
+}
+.space-between{
+    justify-content: space-between;
+}
+.relative{
+    position: relative;
+    margin-top: 3rem;
+}
+.absolute{
+    position: absolute;
+    top: -25px;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
